@@ -1,0 +1,41 @@
+body
+{
+background: black;
+}
+
+h1
+{
+font-family:'Raleway', sans-serif;
+padding-left: 10%;
+padding-right: 10%;
+font-size: 300%;
+color:white;
+}
+
+p
+{
+font-family: 'Gloria Hallelujah', cursive;
+padding-left: 10%;
+padding-right: 10%;
+font-size: 200%;
+color:white;
+}
+
+img
+{
+background-repeat: no-repeat;
+height:100%;
+width: 100%;
+}
+
+a
+{
+background-color:white;
+font-size: 200%;
+color:black;
+font-family:'Raleway', sans-serif;
+padding-left:3%;
+padding-right: 3%;
+margin-left: 80%;
+margin-top: 3%;
+}
