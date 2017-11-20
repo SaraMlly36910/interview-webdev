@@ -1,0 +1,218 @@
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	/*background-image: url(fond.jpg);*/
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: silver;
+}
+
+header{
+	text-align: center;
+}
+p{
+	font-family: 'Montserrat-Light', sans-serif;
+	font-family: 'Lato', sans-serif;
+	color: white;
+}
+
+ul{
+	font-family: 'Montserrat-Light', sans-serif;
+	font-family: 'Lato', sans-serif;
+	color: white;
+}
+
+h1{
+	font-family: 'Abril Fatface', cursive;
+	color: white;
+	font-size: 4em;
+}
+
+h2{
+	font-family: 'Montserrat-Medium', sans-serif;
+	font-family: 'Lato', sans-serif;
+	color: white;
+}
+
+h3{
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 200%;
+}
+
+h4{
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
+	color: white;
+	font-size: 180%;
+}
+
+.Exp-Ed{
+	display: flex;
+	flex-direction: row;
+	background-color: #031E1F;
+	z-index: 1;
+}
+
+.educ{
+	margin: 5%
+}
+
+.exp{
+	margin: 5%
+}
+
+.contact{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	/*background-color: #1F0E03;*/
+	background-position: center; 
+	position: absolute;
+    top: 31%;
+    left: 31%;
+    z-index: 2;
+    float:right;
+}
+
+.contact h3{
+	position: absolute;
+	left: 63%;
+	top: -11%;
+}
+
+.contact img{
+	width: 10%;
+}
+
+
+
+.info{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	left: 69%;
+	top: -3%;
+}
+
+.info p{
+	margin-top:37%;
+}
+
+.icon{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	left: 55%;
+}
+
+.interets img{
+	width: 10%;
+	height: 10%;
+/*	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;*/
+}
+
+.logo{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	justify-content: space-around;
+}
+
+.noms{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: space-around;
+}
+
+.competences{
+	display: flex;
+	flex-direction: row;	
+	flex-wrap: nowrap;
+	align-items: flex-end;
+	/*background-color:#1F0E03; */
+}
+
+.competences h3{
+	align-self: flex-start;
+}
+
+.skills h4{
+	/*background-color:#1F0E03; */
+/*	position: absolute;
+	left: 30%;
+	top: 105%;*/
+}
+
+.langues h4{
+	/*background-color:#1F0E03; */
+/*	position: absolute;
+	left: 66%;
+	top: 105%;*/
+}
+
+.skills img{
+	width: 70%;
+	/*position: absolute;
+	left: 9%;*/
+}
+
+.langues img{
+	width: 50%;
+	/*position: absolute;
+	left:55%;
+	top: 107%;
+}*/
+
+/*.logo{
+
+	display: flex;
+	flex-direction: row;
+}
+*/
+/*
+.interets{
+	background-image: url(fd_int.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: relative;
+    left:800px;
+    bottom:800px;
+}
+
+/*
+.Exp-Ed{
+	background-image: url(exp_fdd.png);
+	background-image: url(exp-fd.png);
+	background-repeat: no-repeat;
+	background-position:5% 5%;
+}
+
+.contact{
+	background-image: url(fond_contact.png);
+	background-repeat: no-repeat;
+	background-position:5% 5%;
+}
+
+.title_contact{
+	background-image: url(brd-top_all-cont.png);
+	background-repeat: no-repeat;
+	background-position:;
+}
+
+
+
+.competences{
+	background-image: url(compfr.png);
+	background-repeat: no-repeat;
+	background-origin:initial;
+	background-position:5% 75%;
+	background-size: 80px 60px;
+}*/
