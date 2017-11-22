@@ -26,6 +26,7 @@ img
 background-repeat: no-repeat;
 height:100%;
 width: 100%;
+padding:3%;
 }
 
 a
@@ -34,8 +35,49 @@ background-color:white;
 font-size: 200%;
 color:black;
 font-family:'Raleway', sans-serif;
-padding-left:3%;
-padding-right: 3%;
-margin-left: 80%;
+padding-left:2%;
+padding-right: 4%;
+padding-bottom: 1%;
+padding-top: 1%;
+margin-left: 70%;
 margin-top: 3%;
+text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.2s;
+
+      transition: all 0.7s;
+  cursor: pointer;
+
 }
+
+a:hover {
+	background-color:#6ae5e5;
+	
+}
+
+a span {
+
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+a span:after {
+  content: '\00bb';
+  position: relative;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+a:hover span {
+  padding-right: 50px;
+}
+
+a:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
