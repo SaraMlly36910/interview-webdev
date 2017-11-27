@@ -1,0 +1,198 @@
+body{
+	background-color: white;
+	color:;
+	font-family: 'Raleway', sans-serif;
+}
+
+header{
+	background-color: white;
+	color: ;
+	padding:10px;
+}
+
+footer{
+	background-color: #015249;
+	padding: 2%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+footer img{
+	
+	width:65%;
+}
+
+h1{
+	font-family: 'Poppins', sans-serif;
+	font-size: 3em;
+}
+
+h2{
+	font-size: 2em;
+}
+
+h1, h2{
+	color: #015249;
+	text-align: center;
+}
+
+.menu, .menu ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.menu li{
+	/* on place les liens du menu horizontalement */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.menu a{
+	text-decoration: none;
+    display: block;
+	color:#015249;
+}
+
+.menu ul{
+	position: relative;
+/* on cache les sous menus complètement sur la gauche */
+    left: -999em;
+    text-align: center;
+    z-index: 1000;
+    width: 12%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+
+}
+
+.menu li:hover ul{
+	/* Au survol des li du menu on replace les sous menus */
+    left: auto;
+    display: block;
+    top: auto;
+}
+
+/*.menu li:hover ul li{
+	float:none;
+}
+*/
+.menu, .menu li{
+	background-color: #77C9D4;
+	color: ;
+
+}
+
+.menu li ul{
+	position: absolute;
+
+}
+
+.menu{
+	width: 12%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    text-align: center;
+    color: #015249;
+}
+section{
+	background-color: #57BC90;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	padding: 13%;
+	flex-wrap: wrap;
+
+}
+
+article{
+	border-style: solid;
+	text-align: center;
+	border-width: 10px;
+	border-color: #015249;
+	width: 45%;
+    margin: 2%;
+    padding-bottom: 11%;
+    padding-top: 11%;
+    padding-left: 8%;
+    padding-right: 8%;
+    text-align: justify;
+}
+
+.moi{
+	float: left;
+	position: relative;
+	animation: slideInLeft 1s;
+}
+
+.Becode{
+	 animation: slideInRight 1s;
+}
+
+nav{
+	top: 10%;
+}
+
+.interview {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+}
+
+.interview h3{
+	position: relative;
+	top: -18%;
+}
+
+.pourquoi, .bon, .contraintes, .emploi, .conseils{
+	/*padding-left: 4%;
+	padding-right: 6%;*/
+	padding-top: 0%;
+	padding-bottom: 0%;
+}
+
+.pourquoi{
+	/*position: absolute;
+    top: 75%;
+    left: 5%;
+    width: 35%;*/
+    /*float: left;*/
+  	margin-left: -12%;
+    padding-left: 3%;
+    margin-top: -3%;
+    padding-bottom: 1%;
+    animation: slideInLeft 1s;
+}
+
+.bon{
+	/*position: relative;
+    right: -47%;
+    width: 49%;*/
+    margin-right: -28%;
+    padding-left: 4%;
+    animation: slideInRight 1s;
+}
+
+.contraintes{
+	/*position: absolute;
+    top: 172%;
+    left: 5%;
+    width: 35%;*/
+}
+
+
+h3{
+	font-size: 1.4em;
+}
+
+.entreprise {
+	animation: fadeIn 1s;
+}
+
+footer a:hover{
+	animation: zoomin 1s;
+}
+
